@@ -1,0 +1,27 @@
+name: focus_candle
+description: A premium focused Pomodoro timer with a candle aesthetic.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.0 <4.0.0"
+  flutter: ">=3.44.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.1.0
+  shared_preferences: ^2.3.2
+  vibration: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/audio/candle_crackle.wav
+    - assets/audio/completion_chime.wav
+    - assets/images/ic_launcher.png
