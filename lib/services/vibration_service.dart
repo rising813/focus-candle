@@ -32,7 +32,8 @@ class VibrationService {
   Future<void> sessionComplete() async {
     if (!_hasVibrator) return;
     try {
-      Vibration.vibrate(pattern: [0, 80, 120, 120], amplitudes: [0, 128, 0, 200]);
+      Vibration.vibrate(pattern: [0, 80, 120, 120], intensities: [0, 128, 0, 200]);
+      
     } catch (_) {}
   }
 }
