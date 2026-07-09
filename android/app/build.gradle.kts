@@ -7,6 +7,15 @@ plugins {
 android {
     namespace = "com.example.focus_candle"
     compileSdk = flutter.compileSdkVersion
+android {
+    namespace = "com.example.focus_candle"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = "25.1.8937393" // <-- Yeh nayi line yahan aayegi
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
