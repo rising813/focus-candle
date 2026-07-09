@@ -10,7 +10,8 @@ android {
 android {
     namespace = "com.example.focus_candle"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = "25.1.8937393" // <-- Yeh nayi line yahan aayegi
+    ndkVersion = "28.2.13676358"
+// <-- Yeh nayi line yahan aayegi
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
